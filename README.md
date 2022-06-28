@@ -4,9 +4,15 @@ Package that scrapes data from Yahoo Finance and turns it into charts, right the
 
 Can also be used for getting data so you can manipulate it yourself.
 
-Key function is stockchart()
+Key function is stockchart() It takes 4 inputs: 
 
-It takes 4 inputs: two stock tickers (mandatory), then a number indicatig the number of years data you want (optional, defaults to 1), then either "price" or "index" (optional, defaults to price). You need to use the same syntax as Yahoo Finance, which means using.AX suffixes for Australian listed companies, and specific tickers for commodities, e.g. GC=F is gold.
+- two stock tickers (mandatory), 
+
+- a number indicatig the number of years data you want (optional, defaults to 1), 
+
+- either "price" or "index" (optional, defaults to price). 
+
+You need to use the same syntax as Yahoo Finance, which means using .AX suffixes for Australian listed companies, and specific tickers for commodities, e.g. GC=F is gold.
 
 stockcharts("BTC-USD", "GC=F", 1, "index") would return something like this:
 
