@@ -41,4 +41,4 @@ Finally, the package includes a function that gets rid of the chart-making and j
 getdata("FB",1)
 
 
-This package requires packages tidyverse, ggtext and lubridate.
+This package requires packages tidyverse, ggtext and lubridate. 
